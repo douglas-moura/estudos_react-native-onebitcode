@@ -7,7 +7,8 @@ const styles = StyleSheet.create({
         bottom: 0,
         backgroundColor: "#fff",
         alignItems: "center",
-        marginTop: 30,
+        marginTop: 20,
+        paddingTop: 15,
         borderTopLeftRadius: 30,
         borderTopRightRadius: 30,
     },
@@ -44,6 +45,16 @@ const styles = StyleSheet.create({
     textFormButton: {
         fontSize: 20,
         color: "#fff"
+    },
+    errorMessage: {
+        fontSize: 12, 
+        color: "red",
+        fontWeight: "bold",
+        paddingLeft: 20
+    },
+    exibitionResultImc: {
+        width: "100%",
+        height: "50%",
     }
 })
 
